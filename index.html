@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+  <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">&nbsp; DnD Character Creator</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navboar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="creator.html">Character Creator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feedback.html">Feedback</a>
+            </li>
+            <div class="position-absolute top-2 end-0">
+              <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button> &nbsp;
+              </form>
+          </div>
+          </nav>
+    </div>
+    <br>
+  </div>
+
+  <br>
+
+
+<ul class="image-list">
+  <li>
+    <a href="#" style="background-image: url('DnD_Hobgoblin.png');"></a>
+    <div class="details">
+      <p class="image-author">Hobgoblin</p>
+    </div>
+  </li>
+  <li>
+    <a href="#" style="background-image: url('DnD_gnome.png');"></a>
+    <div class="details">
+      <p class="image-author">Gnome</p>
+    </div>
+  </li>
+  <li>
+    <a href="#" style="background-image: url('DnD_Djinn.png');"></a>
+    <div class="details">
+      <p class="image-author">Djinn</p>
+    </div>
+  </li>
+
+</ul>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+  </body>
+</html>
